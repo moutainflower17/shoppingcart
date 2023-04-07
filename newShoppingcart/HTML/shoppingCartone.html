@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="../JS/shoppingCart.js"></script>
+		<link href="../CSS/CS.css" rel="stylesheet">
+	</head>
+	
+	<body onload="goodsLoad()">
+		<h4 class="title">商品列表</h4>
+		
+		<table border="0" id="goods">
+		
+		</table>
+		
+		<h4 class="title">购物车详情</h4>
+		
+		<table border="1" id="ss" >
+		    <tr >
+		        <th>商品</th>
+		        <th>单价</th>
+		        <th>数量</th>
+		        <th>金额</th>
+		        <th>删除</th>
+		    </tr>
+			
+		    <tbody id="shoppingCart">
+		    </tbody>
+		
+		    <tfoot>
+		    <tr>
+		        <td colspan='3' >总数：<span id='amount'></span></td>
+		        <td colspan='2'  >总价：<span id='total'></span></td>
+		    </tr>
+		    </tfoot>
+			
+		</table>
+		
+		<script>
+			
+		
+		var goodsData = [
+			{id:"0",Name:"华为meta40",Price:"7999",src:'../CSS/image/1.png'},
+			{id:"1",Name:"华为p40 Pro",Price:"7899",src:'../CSS/image/2.png'},
+			{id:"2",Name:"iphone 12",Price:"6799",src:'../CSS/image/3.png'},
+			{id:"3",Name:"iphone 11",Price:"4899",src:'../CSS/image/4.png'}
+		];
+
+
+		</script>
+	</body>
+</html>
